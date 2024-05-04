@@ -10,7 +10,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class RequestCurrency {
-    private String your_key = "7fc0ac3e220f45ea278595ea";
+    private String your_key = "YOUR_KEY";
 
     public void getCurrency(String actualCurrenty, String toConvertCurrency, double value) throws IOException, InterruptedException {
         String url = "https://v6.exchangerate-api.com/v6/" + your_key + "/latest/" + actualCurrenty;
