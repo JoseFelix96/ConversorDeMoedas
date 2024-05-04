@@ -32,7 +32,7 @@ public class RequestCurrency {
                 System.out.println("\nVocê deseja converter $" + value + " " + actualCurrenty);
                 System.out.println("A taxa de conversão atual na moeda escolhida é de 1 para " + valueRate);
                 System.out.println("O valor em " + toConvertCurrency + " é de $" + value * valueRate);
-                System.out.println("Obrigado por usar o Conversor de moedas!");
+                System.out.println("Obrigado por usar o Conversor de moedas.");
 
             } else if (conversionRatesObj == null || value <= 0) {
                 System.out.println("Entrada inválida!");
